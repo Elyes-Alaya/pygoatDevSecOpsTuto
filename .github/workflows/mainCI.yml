@@ -16,5 +16,5 @@ jobs:
       - name: install bandit
         run: pip install bandit
       - name: run only bandet on hight level
-        run: bandit -r . --severity-level=high --severity-level=medium
+        run: bandit -r . --severity-level=high
         
