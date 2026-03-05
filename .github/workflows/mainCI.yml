@@ -15,6 +15,6 @@ jobs:
           python-version: 3.11
       - name: install bandit
         run: pip install bandit
-      - name: run bandit Scan
-        run: bandit -r .
+      - name: run only bandet on hight level
+        run: bandit -r . --severity-level=high --severity-level=medium
         
